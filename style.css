@@ -15,10 +15,6 @@ header {
   padding: 2rem 0 1rem;
 }
 
-header h1 {
-  font-size: 2.5rem;
-  margin: 0;
-}
 
 .invitation {
   text-align: center;
@@ -49,4 +45,31 @@ header h1 {
   max-width: 800px;
   border-radius: 8px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-top: 0.5em;
+  text-transform: uppercase;
+}
+
+header img {
+  width: 100%;
+  max-width: 640px;
+  height: auto;
+}
+
+header div {
+  position: relative;
+  width: max-content;
+  margin: 0 auto;
+}
+
+.badge {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  width: 100px;
+  height: auto;
 }
