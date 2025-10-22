@@ -1,16 +1,80 @@
-
 :root {
-  --brand-beige: #FBEAD6;
-  --text-color: #333;
   --shadow-color: rgba(0, 0, 0, 0.2);
+  --brand-beige: #fbead6;
+  --text-color: #2e2e2e;
+
 }
 
 body {
   background-color: var(--brand-beige);
   font-family: "Roboto Condensed", sans-serif;
-  color: var(--text-color);
-  margin: 0;
   padding: 0;
+  margin: 0;
+  color: var(--text-color);
+}
+
+header {
+  text-align: center;
+  padding: 2rem 0 1rem;
+}
+
+
+.invitation {
+  text-align: center;
+  background-color: var(--brand-beige);
+  padding: 2rem 1rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.invitation h2 {
+  font-weight: 600;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+
+.invitation p {
+  font-weight: 600;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin: 0 auto 2rem;
+  max-width: 700px;
+}
+
+.invitation img {
+  width: 100%;
+  max-width: 800px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-top: 0.5em;
+  text-transform: uppercase;
+}
+
+header img {
+  width: 100%;
+  max-width: 640px;
+  height: auto;
+}
+
+header div {
+  position: relative;
+  width: max-content;
+  margin: 0 auto;
+}
+
+.badge {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  width: 100px;
+  height: auto;
 }
 
 .festival-section {
