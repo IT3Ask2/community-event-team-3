@@ -1,9 +1,35 @@
-
 :root {
-  --brand-beige: #FBEAD6;
+  --brand-beige: #fbead6;
 }
 
 body {
- background-color: var(--brand-beige);
- font-family: "Roboto Condensed", sans-serif;
+  background-color: var(--brand-beige);
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+header h1 {
+  text-align: center;
+  font-size: 100px;
+  margin-top: 0.5em;
+  text-transform: uppercase;
+}
+
+header img {
+  width: 100%;
+  max-width: 640px;
+  height: auto;
+}
+
+header div {
+  position: relative;
+  width: max-content;
+  margin: 0 auto;
+}
+
+.badge {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  width: 100px;
+  height: auto;
 }
